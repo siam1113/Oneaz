@@ -15,7 +15,7 @@
 * -----------
 */
 
-.navContainer, .featured {
+.navContainer, .featured,.features , .featuredCourses, .featuredTeachers, .featuredAnalytics{
   display: inherit;
   justify-content: center;
   align-items: inherit;
@@ -72,7 +72,7 @@
 .featured{
   display: flex;
   align-items: center;
-  padding: 0 3rem;
+  padding: 5rem 3rem;
 }
 
 .featured > div{
@@ -112,7 +112,7 @@
   justify-content: space-between;
   margin-top: 1.5rem;
 }
-.taglineAction button{
+.taglineAction button, .teacher button{
   font-weight: bold;
   border: none;
   background-color: #113bf7;
@@ -122,3 +122,169 @@
 }
 
 
+/*
+* Features
+* --------
+*/
+.features{
+  display: grid;
+  justify-content: start;
+  padding: 1rem 3rem;
+  background-color: white;
+  border-radius: 0.50rem;
+  background: url('https://image.slidesdocs.com/responsive-images/background/blue-pink-light-block-color-geometric-simple-powerpoint-background_aebe1a0cd8__960_540.jpg');
+}
+
+
+
+.featureHeader{
+  color: #382f2e;
+}
+
+.featureHeader h2{
+  padding: 3rem 0 1.5rem 0rem;
+}
+
+.featureHeader > p{
+  font-size: 0.85rem;
+}
+
+.featureBody{
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 1rem;
+  color: #382f2e;
+}
+
+.featureBody div{
+  padding: 3rem;
+  background-color: white;
+  margin: 0.50rem;
+  border-radius: 0.50rem;
+}
+
+.featureBody h3{
+padding: 1rem 0rem;
+}
+
+.featureBody p{
+text-align: justify;
+font-size: 0.85rem;
+}
+
+
+/*
+* Featured courses
+*--------------
+*/
+.featuredCourses{
+  display: flex;
+  margin: 10rem 3rem;
+  justify-content: space-around;
+  color: #382f2e;
+  border-radius: 0.50rem;
+  background: url('https://image.slidesdocs.com/responsive-images/background/green-light-white-marketing-round-minimalist-powerpoint-background_cc35fd933c__960_540.jpg');
+}
+
+.featuredCoursesCol1, .featuredCoursesCol2{
+  padding: 2rem 2rem;
+}
+
+.featuredCoursesHeader{
+  padding: 1rem 0rem;
+}
+
+.featuredCoursesHeader h2{
+  padding: 1rem 0rem;
+}
+
+.featuredCoursesHeader p{
+  font-size: 0.85rem;
+}
+
+.featuredCoursesItems div{
+  padding: 1rem 1rem;
+  margin: 1rem 0rem;
+  box-shadow: 0px 1px 3px;
+  border-radius: 0.50rem;
+}
+.featuredCoursesItems h3{
+  padding: 0.75rem 0rem;
+}
+
+.featuredCoursesItems p{
+  font-size: 0.85rem;
+}
+
+/*
+* Teachers
+*---------
+*/
+.featuredTeachers{
+  display: grid;
+  text-align: center;
+  color:#382f2e;
+}
+.featuredTeachersHeader{
+  padding: 3rem 0rem;
+}
+
+.teachers{
+  display: flex;
+  justify-content: space-around;
+}
+.teacher{
+  display: grid;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.teacher h4{
+  padding: 1rem 0rem;
+} 
+
+.teacher b{
+  font-size: 0.75rem;
+  padding: 0.75rem 0rem;
+} 
+
+.teacher img{
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.teacher > button{
+  padding: 0.50rem 0.50rem !important;
+  cursor: pointer;
+}
+
+/*
+* Analytics
+*----------
+*/
+.featuredAnalytics{
+  color: #000;
+  justify-content: space-around;
+  padding: 3rem 0rem;
+  margin-top: 15rem;
+  border-radius: 0.50rem;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSezt40rVLdv95qB3ZsXklmBip4yQ6c92HDA&usqp=CAU');
+
+}
+
+.featuredAnalytics div{
+  display: grid;
+  text-align: center;
+}
+
+.featuredAnalytics h4{
+  font-size: 1.2rem;
+   color: #113bf7;
+   padding: 0.75rem 0rem;
+}
+
+.featuredAnalytics b{
+  font-size: 0.85rem;
+
+}
