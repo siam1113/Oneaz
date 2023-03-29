@@ -15,7 +15,7 @@
 * -----------
 */
 
-.navContainer, .featured,.features , .featuredCourses, .featuredTeachers, .featuredAnalytics{
+.navContainer, .featured,.features , .featuredCourses, .featuredTeachers, .featuredAnalytics, .footer{
   display: inherit;
   justify-content: center;
   align-items: inherit;
@@ -269,7 +269,7 @@ font-size: 0.85rem;
   padding: 3rem 0rem;
   margin-top: 15rem;
   border-radius: 0.50rem;
-  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSezt40rVLdv95qB3ZsXklmBip4yQ6c92HDA&usqp=CAU');
+  background: url('https://media.istockphoto.com/id/1351934898/video/4k-network-background-loopable.jpg?s=640x640&k=20&c=FStCJKnjXYgFRqIeVVriBj4PgRi-95LgSQUuANBNzE4=');
 
 }
 
@@ -288,3 +288,65 @@ font-size: 0.85rem;
   font-size: 0.85rem;
 
 }
+
+
+/*
+* Footer
+* ------
+*/
+.footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
+  background: url('https://kidslifestudio.com/wp-content/uploads/footer-background.jpg');
+  background-size: contain;
+  border-radius: 0.25rem;
+}
+
+.footer div{
+  padding: 3rem 2rem;
+  padding-bottom: 8rem;
+}
+
+.footer div:nth-child(1){
+  width: 25%;
+}
+
+.footer div:nth-child(1) > ul{
+  display: flex;
+  padding: 1rem 0rem;
+  align-items: center;
+  justify-content:space-between
+}
+
+.footer h3{
+  font-size: 1.50rem;
+  color: #000;
+  padding: 1rem 0rem;
+}
+
+.footer div > b{
+  text-shadow: 1px 2px 3px rgb(135, 231, 56);
+  font-size: 1.25rem;
+}
+
+.footer span{
+  color: #113bf7;
+}
+
+.footer li{
+  list-style-type: none;
+  font-size: 0.85rem;
+  color: #000;
+  padding: 0.25rem 0rem;
+  cursor: pointer;
+}
+
+.footer li:nth-child(1){
+  padding: 1rem 0rem;
+  font-size: 1rem;
+  cursor:inherit;
+}
+

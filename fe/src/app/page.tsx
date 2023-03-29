@@ -163,6 +163,60 @@ export default function Home() {
           <b>Live class taken</b>
         </div>
       </div>
+      <div className={styles.footer}>
+        <div>
+          <h3>Oneaz</h3>
+          <b><span>Helping</span> you <br/> <span>Discover </span>and <br/> <span>Learn Yourself</span></b>
+        <ul>
+          <li>
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733603.png" width='25'/>
+          </li>
+          <li>
+            <img src="https://cdn-icons-png.flaticon.com/512/60/60580.png" width='25'/>
+          </li>
+          <li>
+            <img src="https://cdn-icons-png.flaticon.com/512/4494/4494467.png" width='25'/>
+          </li>
+           <li>
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" width='25'/>
+          </li>
+        </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <b>About Us</b>
+            </li>
+            <li>Blog</li>
+            <li>Jobs</li>
+            <li>Affiliate</li>
+          </ul>
+        </div>
+        <div>
+             <li>
+              <b>For Teachers</b>
+            </li>
+            <li>Blog</li>
+            <li>Jobs</li>
+            <li>Affiliate</li>
+        </div>
+        <div>
+           <li>
+              <b>For Students</b>
+            </li>
+            <li>Blog</li>
+            <li>Jobs</li>
+            <li>Affiliate</li>
+        </div>
+        <div>
+           <li>
+              <b>Support</b>
+            </li>
+            <li>Blog</li>
+            <li>Jobs</li>
+            <li>Affiliate</li>
+        </div>
+      </div>
     </main>
   )
 }
