@@ -25,12 +25,12 @@ export default function Home() {
               </a>
               </li>
               <li>
-              <a href="#">
+              <a href="/signin">
               Sign In
               </a>
               </li>
               <li>
-               <a href="#">
+               <a href="/signup">
               Sign Up
               </a>
               </li>
@@ -217,6 +217,5 @@ export default function Home() {
             <li>Affiliate</li>
         </div>
       </div>
-    </main>
-  )
+   </main>);
 }

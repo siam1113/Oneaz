@@ -1,0 +1,78 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  min-height: 100vh;
+  background-image: url("https://wallpapers.com/images/hd/light-blue-white-gradient-ocp1nxf9y5f7ae47.webp");  
+}
+
+.signInCard{
+  background: url('https://cdn.woorise.com/template/wp-content/uploads/sites/62/2021/02/online-registration-background.png');
+  border-radius: 0.50rem;
+  height: 100%;
+  width: 35%;
+  display: block;
+  margin: auto;
+  padding: 1rem 1rem;
+}
+
+.header, .signInForm{
+  display: inherit;
+  justify-content: center;
+  align-items: inherit;
+  font-size: 1rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+.signInForm, .header{
+  width: 70%;
+  margin: auto;
+  padding: 1rem 0rem;
+  color: black;
+}
+
+/*
+* Header
+* ------
+*/
+
+.header h1{
+  text-align: center;
+  padding: 3rem 0rem 4rem 0rem;
+}
+
+.header p{
+  font-size: 0.85rem;
+}
+
+
+/*
+* Form
+* ------
+*/
+
+.signInForm label{
+  font-size: 0.80rem;
+}
+
+.signInForm input{
+  width: 100%;
+  background-color: white;
+  padding: 0.75rem;
+  border: 1px solid #113bf7;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.signInForm input[type=submit]{
+  background-color: #113bf7;
+  width: 100%;
+  padding: 0.50rem 0rem;
+  border: none;
+  margin: 2rem 0rem;
+}
